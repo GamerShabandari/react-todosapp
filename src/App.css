@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+.doneTodo{
+  text-decoration: line-through;
+  font-size: 3rem;
+  color: #fffffe75;
+  margin: 10px;
+  transition: 0.2s all;
+}
+
+.doneTodo:hover{
+  scale: 1.1;
+}
+
+.notDoneTodo{
+  font-size: 3rem;
+  color: #fffffe;
+  margin: 10px;
+  transition: 0.2s all;
+}
+
+.notDoneTodo:hover{
+  scale: 1.1;
+}
+
+header h1{
+  color: #e85618;
+  font-size: 5rem;
+}
+
+button{
+  background-color: #e85618;
+  border: none;
+  color: #fffffe;
+  font-size: 1rem;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  transition: 0.2s all;
+}
+
+button:hover{
+  scale: 1.1;
+}
+input{
+  background-color: #fffffe;
+  border: none;
+  width: 30%;
+  height: 2rem;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 1rem;
+  margin-bottom: 60px;
+}
