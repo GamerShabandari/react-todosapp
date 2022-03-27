@@ -46,7 +46,7 @@
 }
 
 .doneTodo:hover{
-  scale: 1.1;
+  transform: scale(1.1);
 }
 
 .notDoneTodo{
@@ -54,10 +54,11 @@
   color: #fffffe;
   margin: 10px;
   transition: 0.2s all;
+
 }
 
 .notDoneTodo:hover{
-  scale: 1.1;
+  transform: scale(1.1);
 }
 
 header h1{
@@ -74,10 +75,11 @@ button{
   padding: 20px;
   border-radius: 5px;
   transition: 0.2s all;
+  align-content: center;
 }
 
 button:hover{
-  scale: 1.1;
+  transform: scale(1.1);
 }
 input{
   background-color: #fffffe;
